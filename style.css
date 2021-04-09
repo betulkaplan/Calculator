@@ -15,24 +15,27 @@
 
 .screen .display {
   flex: 3;
-  border: 2px dotted wheat;
   display: flex;
   flex-direction: column;
   color: wheat;
 }
 
 .display div {
-  border: 2px solid green;
   flex: 4;
 }
 
 .display .bottom {
   flex: 1;
+  text-align: right;
+  color: white;
+}
+.display .top {
+  text-align: left;
+  color: gray;
 }
 
 .screen .keyboard {
   flex: 5;
-  border: 2px dotted wheat;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);

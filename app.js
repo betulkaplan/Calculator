@@ -30,6 +30,7 @@ function pressKey(key){
         console.log('your press equal')
         display_top.textContent += display_bottom.textContent;
         display_bottom.textContent = eval(display_top.textContent);
+        display_top.textContent = '';
     }
     
 }
